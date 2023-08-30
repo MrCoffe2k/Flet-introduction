@@ -24,5 +24,7 @@ def main(page: ft.Page):
             alignment=ft.MainAxisAlignment.CENTER,
         )
     )
-
+# Running in native mode
 ft.app(target=main)
+# Running in webapp mode
+# ft.app(target=main, view=ft.AppView.WEB_BROWSER)
